@@ -54,3 +54,9 @@ Authenticated routes accept `Authorization: Bearer <token>`. Progress updates ac
 - **Backend:** deploy `backend/` to Render with `MONGODB_URI`, `JWT_SECRET`, `CLIENT_ORIGIN`, and `PORT` environment variables. Configure the health-check path as `/api/health`. The API defaults to port `5001` locally to avoid macOS Control Center's use of port `5000`.
 - **Database:** use MongoDB Atlas and restrict network access to the backend deployment where possible.
 - Run the admin seed command once in a trusted environment. Do not commit `.env` files or expose `ADMIN_PASSWORD` in a deployed frontend.
+
+## Author
+
+**Lokesh m**  
+Full Stack Web Developer
+Mysore Karnataka india 
