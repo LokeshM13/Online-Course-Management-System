@@ -1,0 +1,3 @@
+.course-grid > .course-card:last-child:nth-child(odd) {
+  display: block;
+}
